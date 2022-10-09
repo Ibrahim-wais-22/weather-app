@@ -1,0 +1,167 @@
+/* @import bg form '..' */
+
+.body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .cointainer{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: center;
+    background-image: url('../public/images/unnamed.jpg');
+    
+  }
+  /*---------- home--------------- */
+  .col-9{
+    margin-right: 50px;
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 100px 200px; */
+    color: rgb(0, 0, 0);
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    
+    
+    margin: 50px 0px 50px 50px;
+  }
+ 
+.head{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.select-head{
+  width: 35%;
+  height: 30vh;
+  overflow: scroll;
+  cursor: pointer;
+  /* background-color: rgba(255, 255, 255, 0.25); */
+  border: none;
+  /* ------ */
+  background: rgb(255 255 255 / 10%);
+  border-radius: 16px ;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
+  /* : rgb(255 255 255 / 10%); */
+  
+}
+select:option{
+  background:rgba(73, 52, 52, 0.1) ;
+}
+
+.body-home{
+  margin-top: 48%;
+}
+.home h1 {
+  font-size: 7rem;
+  text-align: center;
+}
+/* -------left------ */
+.left{
+  width: 100%;
+  height: 75vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ .nameCity{ 
+ display: flex;
+align-items: center; 
+font-size: 2rem;
+} 
+
+.temp{
+
+font-size: 5rem;
+
+}
+
+/*------- countires---- */
+.col-3{
+  /* width: 25%; */
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+  color: #FFF;
+ 
+  background: rgb(144 128 128 / 18%);
+  border-radius: 0px 16px 16px 0px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  margin:50px 50px 50px 0px;
+ 
+}
+ .countries h4{
+ margin-top: 20px;
+} 
+ .countries h5{
+ margin-top: 10px;
+} 
+ .countries hr{
+ margin-bottom: 10px;
+ margin-top: 5px;
+} 
+.anotherData1{
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.anotherData2{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.city{
+  margin: 2px;
+  cursor: pointer;
+}
+.cityCont{
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgw{
+  border-radius: 30px;
+}
+
+/*---------- another----------- */
+/* .col-bottom{
+  display: flex;
+} */
+/* -----------1---------- */
+/* .col-6{
+  width: 50%;
+  height: 25vh;
+
+} */
