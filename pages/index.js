@@ -34,9 +34,9 @@ export default function Main() {
       console.log(weather);
     }, [selectedCity]);
 
-    if (!cities || !weather) {
-      return <div>Loading...</div>;
-    }
+    // if (!cities || !weather) {
+    //   return <div>Loading...</div>;
+    // }
     console.log(weather);
 
   return (
